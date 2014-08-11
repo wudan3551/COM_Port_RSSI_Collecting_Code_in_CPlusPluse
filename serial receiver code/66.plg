@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 66 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/66.res" /d "_DEBUG" "D:\Documents and Settings\wsnuser\Desktop\from yan\serial receiver code\66.rc"" 
+Creating temporary file "D:\DOCUME~1\wsnuser\LOCALS~1\Temp\RSP10B.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/66.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Documents and Settings\wsnuser\Desktop\from yan\serial receiver code\66.cpp"
+"D:\Documents and Settings\wsnuser\Desktop\from yan\serial receiver code\66Dlg.cpp"
+"D:\Documents and Settings\wsnuser\Desktop\from yan\serial receiver code\mscomm.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\wsnuser\LOCALS~1\Temp\RSP10B.tmp" 
+Creating temporary file "D:\DOCUME~1\wsnuser\LOCALS~1\Temp\RSP10C.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/66.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Documents and Settings\wsnuser\Desktop\from yan\serial receiver code\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\wsnuser\LOCALS~1\Temp\RSP10C.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/66.pdb" /debug /machine:I386 /out:"Debug/66.exe" /pdbtype:sept  ".\Debug\66.obj" ".\Debug\66Dlg.obj" ".\Debug\mscomm.obj" ".\Debug\StdAfx.obj" ".\Debug\66.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+66.cpp
+66Dlg.cpp
+mscomm.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/66.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\66.sbr" ".\Debug\66Dlg.sbr" ".\Debug\mscomm.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+66.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
